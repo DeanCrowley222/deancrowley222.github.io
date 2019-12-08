@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+<title>Tramore AFC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class=" body header">
+<h1>.</h1>
+</div>
+
+<div class="ui pointing menu">
+  <a href="index.html">Home</a>
+  <a href="history.html">History</a>
+  <a href="location.html">Location</a>
+  <a href="teams.html" class="active">Teams</a>
+</div>
+
+<div class="side">
+<h2>Competitions We Compete In</h2>
+<p>Some text about me in culpa qui officia deserunt mollit animSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed</p>
+</div>
+
+
+
+<h2>Schoolboy Teams</h2>
+
+<table class="ui sortable black inverted table">
+  <thead>
+    <tr><th>Age (Under)</th>
+    <th>Coach</th>
+    <th>Contact</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td>11 A</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+	  <tr>
+      <td>11 B</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+	  <tr>
+      <td>12 A</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+	  <tr>
+      <td>13 A</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+    </tr>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+
+<h2>Junior Teams</h2>
+
+<table class="ui sortable black inverted table">
+  <thead>
+    <tr><th>Division</th>
+    <th>Coach</th>
+    <th>Contact</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td>Premier</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+	  <tr>
+      <td>1 A</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+	  <tr>
+      <td>2 B</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+	  <tr>
+      <td>4</td>
+      <td>Tommy</td>
+      <td>email@email.com 0987654321</td>
+    </tr>
+</table>
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+<script type="text/javascript" src="https://semantic-ui.com/javascript/library/tablesort.js"></script>
+<script>
+  $('table').tablesort();
+</script>
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
